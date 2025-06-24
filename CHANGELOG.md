@@ -8,13 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Changed
-- Updated Java version from 21 to 24
-- Updated Spring Boot version from 3.4.0 to 3.4.4
-- Updated Spring Cloud version from 2024.0.0 to 2024.0.1
-- Updated Docker base images to use Java 24:
-  - Changed `eclipse-temurin:21-jre-alpine` to `eclipse-temurin:24-jre-alpine`
-  - Changed `maven:3-eclipse-temurin-21-alpine` to `maven:3-eclipse-temurin-24-alpine`
-- Updated GitHub Actions workflow to use Java 24
+- Updated Java version from 21 to 24. (Source: `pom.xml`, `git` commit `684ee40`, `Dockerfile`, `.github/workflows/maven.yml`)
+- Updated Spring Boot version to `3.5.0`. (Source: `pom.xml`)
+- Updated Spring Cloud version to `2025.0.0`. (Source: `pom.xml`)
+- Updated Docker base images to use Java 24: (Source: `Dockerfile`, `Dockerfile.local`)
+  - `eclipse-temurin:24-jre-alpine`
+  - `maven:3-eclipse-temurin-24-alpine`
+- Updated GitHub Actions workflow to use Java 24. (Source: `.github/workflows/maven.yml`)
+
+### Added
+- Health check endpoint. (Source: `git` commit `9a43bca`)
+- CI badge to `README.md`. (Source: `git` commit `4ee7a3b`)
 
 ## [0.0.1] - 2024-03-23
 
@@ -22,4 +26,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial release
 - Basic Eureka Server implementation
 - Docker support
-- GitHub Actions CI/CD pipeline 
+- GitHub Actions CI/CD pipeline
