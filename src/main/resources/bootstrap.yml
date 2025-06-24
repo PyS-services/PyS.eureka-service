@@ -2,7 +2,6 @@ app:
   port: ${APP_PORT:8761}
   logging: debug
 
-
 server:
   port: ${app.port}
 
