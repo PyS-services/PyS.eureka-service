@@ -11,14 +11,24 @@ PyS.eureka-service is a Netflix Eureka Server implementation for service discove
 - Service registration and discovery
 - High availability and fault tolerance
 - RESTful API for service management
-- Health monitoring and status reporting
+- Health monitoring and status reporting via Actuator
 - Self-preservation mode for network issues
+- Distributed tracing with OpenTelemetry
+- Caching with Caffeine
 
 ## Prerequisites
 
 - Java 24
 - Maven 3.6+
 - Docker (optional)
+
+## Dependencies
+
+- Spring Boot 3.5.3
+- Spring Cloud 2025.0.0
+- Spring Cloud Netflix Eureka Server
+- OpenTelemetry Spring Boot Starter 2.16.0
+- Caffeine Cache
 
 ## Getting Started
 
