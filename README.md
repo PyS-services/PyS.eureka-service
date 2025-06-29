@@ -27,7 +27,7 @@ PyS.eureka-service is a Netflix Eureka Server implementation for service discove
 - Spring Boot 3.5.3
 - Spring Cloud 2025.0.0
 - Spring Cloud Netflix Eureka Server
-- OpenTelemetry Spring Boot Starter 2.16.0
+- OpenTelemetry Spring Boot Starter 2.17.0
 - Caffeine Cache
 
 ## Getting Started
